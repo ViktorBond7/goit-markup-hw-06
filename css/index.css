@@ -9,4 +9,4 @@
 
 /*==layout==*/
 
-@media "./layout/header.css";
+@import "./layout/header.css";
