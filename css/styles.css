@@ -399,13 +399,13 @@ transform: translateY(0%);
 .container .link-studio{
    margin-bottom: 16px;
 }
-.icon {
+/* .icon {
     fill:#F4F4FD;
     
    
-}
+} */
  
-.icon-team {
+/* .icon-team {
     background-color: #4D5AE5;
     width: 40px;
     height: 40px;
@@ -413,7 +413,7 @@ transform: translateY(0%);
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 
 .container-footer, 
