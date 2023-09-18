@@ -10,3 +10,5 @@
 /*==layout==*/
 @import "./layout/header.css";
 @import "./layout/hero.css";
+@import "./layout/section2.css";
+@import "./layout/section3.css";
