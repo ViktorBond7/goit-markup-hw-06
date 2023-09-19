@@ -125,13 +125,13 @@ Research and confirm brands that present the strongest digital growth opportunit
     <h2 class="title-sect">Our Team</h2>
 <ul class="images-acon">
     <li class="page-our-img">
-<img 
-class="images-photo" 
-srcset="./images/retina/mark@2.jpg 2x"
-src="./images/guerrero.jpg" 
-    width="264"
-    height="260"
-    alt="Mark Guerrero">
+      <img 
+         class="images-photo" 
+         srcset="./images/retina/mark@2.jpg 2x"
+         src="./images/guerrero.jpg" 
+             width="264"
+             height="260"
+             alt="Mark Guerrero">
     <div class="page-icon-mark">
       <h3 class="page-img">Mark Guerrero</h3>
       <p class="title">Product Designer</p>
@@ -175,12 +175,12 @@ src="./images/guerrero.jpg"
    
    <li class="page-our-img">
     <img 
-    class="images-photo" 
-    srcset="./images/retina/tom@2.jpg 2x"
-    src="./images/ford.jpg" 
-    width="264"
-    height="260"
-    alt="Tom Ford">
+       class="images-photo" 
+       srcset="./images/retina/tom@2.jpg 2x"
+       src="./images/ford.jpg" 
+           width="264"
+           height="260"
+           alt="Tom Ford">
     <div class="page-icon-mark">
       <h3 class="page-img">Tom Ford</h3>
       <p class="title">Frontend Developer</p>
@@ -224,13 +224,13 @@ src="./images/guerrero.jpg"
     
    </li>
    <li class="page-our-img">
-<img 
-class="images-photo" 
-srcset="./images/retina/camila@2.jpg 2x"
-src="./images/garcia.jpg" 
-    width="264"
-    height="260"
-    alt="Camila Garcia">
+    <img 
+       class="images-photo" 
+       srcset="./images/retina/camila@2.jpg 2x"
+       src="./images/garcia.jpg" 
+          width="264"
+          height="260"
+          alt="Camila Garcia">
     <div class="page-icon-mark">
       <h3 class="page-img">Camila Garcia</h3>
       <p class="title">Marketing</p>
@@ -273,13 +273,13 @@ src="./images/garcia.jpg"
     
    </li>
    <li class="page-our-img">
-<img 
-class="images-photo"
-srcset="./images/retina/daniel@2.jpg 2x"
-src="./images/wilson.jpg"
-    width="264"
-    height="260"
-    alt="Daniel Wilson">
+    <img 
+       class="images-photo"
+       srcset="./images/retina/daniel@2.jpg 2x"
+       src="./images/wilson.jpg"
+          width="264"
+          height="260"
+          alt="Daniel Wilson">
     <div class="page-icon-mark">
       <h3 class="page-img">Daniel Wilson</h3>
       <p class="title">UI Designer</p>
@@ -325,17 +325,33 @@ src="./images/wilson.jpg"
 </ul>
     </div>
   </section>
+  
   <!--section4-->
-  <!-- <section class="section section-portfolio"> 
+  <section class="section section-portfolio"> 
       <div class="container container-app">
     <h2 class="title-sect">Our Portfolio</h2>
     <ul class="images">
       <li class="images-banking">
 <div class="animation">
-        <img src="./images/bankingapp.jpg"
-    alt="Banking App"
-    width="360"
-    height="300">
+
+
+        <img
+        class="portfolio-icon" 
+        srcset="
+        ./images/bankingapp.jpg               360w,
+        ./images/retina/banking@2x.jpg        720w,
+        ./images/banking-tablet.jpg           356w,
+        ./images/retina/banking-tablet@2x.jpg 712w,
+        ./images/banking-mobile.jpg           288w,
+        ./images/retina/banking-mobile@2x.jpg 576w
+        "
+        
+        src="./images/banking-mobile.jpg"
+        sizes="(min-width: 1158)"
+        sizes="(min-width: 1158px) 360px, (min-widtch: 768px) 356px, (max-widtch: 767px) 288px"
+           width="360"
+           height="300"
+           alt="Banking App">
 
    
     <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -347,16 +363,25 @@ src="./images/wilson.jpg"
     <h3 class="page-img">Banking App</h3>
     <p class="text-portfolio">App</p>
    </div>
-    
       </li>
       <li class="images-banking">
         <div class="animation">
-<img src="./images/cashlesspayment.jpg" 
-    alt="Cashless Payment"
-    width="360"
-    height="300">
+          <img
+          class="portfolio-icon"  
+          srcset="
+          ./images/cashlesspayment.jpg           360w,
+          ./images/retina/cashless@2x.jpg        720w,
+          ./images/cashless-tablet.jpg           356w,
+          ./images/retina/cashless-tablet@2x.jpg 712w,
+          ./images/cashless-mobile.jpg           288w,
+          ./images/retina/cashless-mobile@2x.jpg 576w
+          "
+          src="./images/cashless-mobile.jpg" 
+          sizes="(min-width: 1158px) 360px, (min-widtch: 768px) 356px, (max-widtch: 767px) 288px"
+              width="360"
+              height="300"
+              alt="Cashless Payment">
 
-    
       <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
       ·
       Cloud Storage App
@@ -367,16 +392,24 @@ src="./images/wilson.jpg"
       <h3 class="page-img">Cashless Payment</h3>
       <p class="text-portfolio">Marketing</p>
     </div>
-    
       </li>
       <li class="images-banking">
         <div class="animation">
-<img src="./images/meditationapp.jpg"
-    alt="Meditation App"
-    width="360"
-    height="300">
+          <img 
+          class="portfolio-icon" 
+          srcset="
+          ./images/meditationapp.jpg               360w,
+          ./images/retina/meditation@2x.jpg        720w, 
+          ./images/meditation-tablet.jpg           356w,
+          ./images/retina/meditation-tablet@2x.jpg 712w, 
+          ./images/meditation-mobile               288w,
+          ./images/retina/meditation-mobile@2x.jpg 576w"
+          src="./images/meditation-mobile.jpg"
+          sizes="(min-width: 1158px) 360px, (min-widtch: 768px) 356px, (max-widtch: 767px) 288px"
+                width="360"
+                height="300"
+                alt="Meditation App">
 
-    
       <p class="overlay"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
       ·
       Cloud Storage App
@@ -391,10 +424,21 @@ src="./images/wilson.jpg"
       </li>
       <li class="images-banking">
         <div class="animation">
-<img src="./images/taxiservice.jpg"
-    alt="Taxi Service"
-    width="360"
-    height="300">
+          <img
+          class="portfolio-icon"  
+          srcset="
+          ./images/taxiservice.jpg                  360w, 
+          ./images/retina/taxiservice@2x.jpg        720w,
+          ./images/taxiservice-tablet.jpg           356w,
+          ./images/retina/taxiservice-tablet@2x.jpg 712w, 
+          ./images/taxiservice-mobile.jpg           288w,
+          ./images/retina/taxiservice-mobile@2x.jpg 576w"
+          
+          src="./images/taxiservice-mobile.jpg"
+          sizes="(min-width: 1158px) 360px, (min-widtch: 768px) 356px, (max-widtch: 767px) 288px"
+              width="360"
+              height="300"
+              alt="Taxi Service">
 
     <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
     ·
@@ -406,14 +450,24 @@ src="./images/wilson.jpg"
       <h3 class="page-img">Taxi Service</h3>
       <p class="text-portfolio">Marketing</p>
     </div>
-    
       </li>
       <li class="images-banking">
         <div class="animation">
-<img src="./images/screeniustrations.jpg"
-    alt="Screen Illustrations"
-    width="360"
-    height="300">
+          <img
+          class="portfolio-icon" 
+          srcset="
+          ./images/screeniustrations.jpg                    360w, 
+          ./images/retina/screen@2x.jpg                     720w,
+          ./images/screenlustrations-tablet.jpg             356w,
+          ./images/retina/screenlustrations-tablet@2x.jpg   712w, 
+          ./images/screenlustrations-mobile.jpg             288w,
+          ./images/retina/screenlustrations-mobile@2x.jpg   576w"
+           
+          src="./images/screenlustrations-mobile.jpg"
+          sizes="(min-width: 1158px) 360px, (min-widtch: 768px) 356px, (max-widtch: 767px) 288px"
+             width="360"
+             height="300"
+             alt="Screen Illustrations">
       <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
       ·
       Cloud Storage App
@@ -425,12 +479,23 @@ src="./images/wilson.jpg"
       <p class="text-portfolio">Design</p>
     </div>
       </li>
-      <li class="images-banking">
+      <li class="images-banking"> 
         <div class="animation">
-<img src="./images/onlinecourses.jpg"
-    alt="Online Courses"
-    width="360"
-    height="300">
+          <img 
+          class="portfolio-icon" 
+          srcset="
+          ./images/onlinecourses.jpg                    360w, 
+          ./images/retina/online@2x.jpg                 720w,
+          ./images/onlinecourses-tablet.jpg             356w,
+          ./images/retina/onlinecourses-tablet@2x.jpg   712w,
+          ./images/onlinecourses-mobile.jpg             288w,
+          ./images/retina/onlinecourses-mobile@2x.jpg   576w"
+          
+          src="./images/onlinecourses-mobile.jpg"
+          sizes="(min-width: 1158px) 360px, (min-widtch: 768px) 356px, (max-widtch: 767px) 288px"
+              width="360"
+              height="300"
+              alt="Online Courses">
 
       <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
       ·
@@ -446,7 +511,7 @@ src="./images/wilson.jpg"
       </li>
     </ul>
     </div>
-  </section> -->
+  </section>
  
 </main>
 

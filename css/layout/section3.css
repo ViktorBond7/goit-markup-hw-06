@@ -4,13 +4,15 @@
         max-width: 320px;
     }
     .images-photo {
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
         }
     .page-icon-mark {
         margin-bottom: 72px;
     }
 }
 
+/*==tablet==*/
 @media screen and (min-width: 768px) {
     .images-acon {
         display: flex;
@@ -24,7 +26,7 @@
     }
 }
 
-
+/*==desctop==*/
 @media screen and (min-width: 1158px) {
     .images-acon {
         display: flex;
@@ -51,6 +53,7 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .page-our {
