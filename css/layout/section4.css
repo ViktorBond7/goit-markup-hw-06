@@ -6,6 +6,15 @@
     letter-spacing: 0.02em;
 }
 
+.page-img {
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
 .page-icon-app {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -23,34 +32,42 @@
 
 }
 
+
 /*==mobile==*/
 @media screen and (max-width: 767px) {
     .section-portfolio {
-        width: 100%;
         max-width: 320px;
-    }
-    .portfolio-icon {
         margin-left: auto;
         margin-right: auto;
     }
-    .images {
-        gap: 48px;
+
+    .page-icon-app {
+        margin-bottom: 48px;
     }
+    .overlay {
+        display: none;
+    }
+    
 
 }
 
 /*==tablet==*/
+
 @media screen and (min-width: 768px) {
     .images {
         display: flex;
         row-gap: 32px;
         column-gap: 24px;
         flex-wrap: wrap;
-        
+        width: calc((100%-24px)/2);
     }
     .images-banking {
-        width: calc((100%-48px)/3);;
+        
     }
+    .overlay {
+         display: none;
+    }
+    
 
 }
 
@@ -61,11 +78,12 @@
         row-gap: 48px;
         column-gap: 24px;
         flex-wrap: wrap;
+        width: calc((100%-48px)/3);
        
     }
 
     .images-banking {
-        flex-basis: calc((100%-48px)/3);
+        
 
     }
 
@@ -81,6 +99,7 @@
     }
     
     .overlay {
+        display: flex;
         position: absolute;
         background: #4D5AE5;
         top: 0;

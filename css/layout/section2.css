@@ -48,6 +48,18 @@
 
 
 @media screen and (min-width: 1158px) {
+    .icon-antenna {
+        border: 1px solid var(--lightslate, #8E8F99);
+        width: 264px;
+        height: 112px;
+        background: #F4F4FD;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    
     .container-strategy {
         width: calc((100%-72px)/4);
     }
