@@ -41,14 +41,15 @@
         margin-right: auto;
     }
 
-    .page-icon-app {
+    .images-banking {
         margin-bottom: 48px;
     }
     .overlay {
         display: none;
     }
-    
-
+    .images-banking:nth-last-child(1) {
+        margin-bottom: 0;
+    }
 }
 
 /*==tablet==*/
