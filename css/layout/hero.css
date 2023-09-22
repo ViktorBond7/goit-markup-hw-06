@@ -1,19 +1,19 @@
 
-.hero { 
-      /* max-width: 320px;  */
-   
-    background-color: #2E2F42;
-        text-align: center;
-        color: #FFF;
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(/images/dark-bgx.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center top;
-        margin: auto;
-    }
+    .hero { 
+ /* max-width: 320px;  */
+   background-color: #2E2F42;
+text-align: center;
+color: #FFF;
+background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(/images/dark-bgx.jpg);
+     background-size: cover;
+background-repeat: no-repeat;
+background-position: center top;
+margin: auto;
+}
 
-@media screen and (max-width: 767px) {
+
+    @media screen and (max-width: 767px) {
     .hero {
         font-size: 36px;
         font-weight: 700;
@@ -24,7 +24,7 @@
     .link-button{
         margin-top: 72px;
     }
-}
+    }
 
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),

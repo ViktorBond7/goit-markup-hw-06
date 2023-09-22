@@ -71,13 +71,7 @@
     .list-names {
         flex-wrap: nowrap;
     }
-    .page-img {
-        color: #2e2f42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
+   
     .text-section-dwa {
         font-size: 16px;
         font-weight: 400;
