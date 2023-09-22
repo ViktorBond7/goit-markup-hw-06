@@ -1,7 +1,7 @@
 
 .hero { 
       /* max-width: 320px;  */
-    min-height: 600px;
+   
     background-color: #2E2F42;
         text-align: center;
         color: #FFF;
@@ -80,7 +80,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen  and (min-width: 768px) {
     .hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(/images/hero-tablet.jpg);
-            padding: 112px 0 112px;
+            justify-content: center;
         }
     .link-button {
         margin-top: 36px;

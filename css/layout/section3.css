@@ -1,8 +1,8 @@
 
-@media screen and (min-width: 320px) {
-    .page-our section {
-        max-width: 320px;
-    }
+@media screen and (max-width: 767px) {
+    .container-team {
+        max-width: 296px;
+        }
     .images-photo {
         margin-left: auto;
         margin-right: auto;
@@ -12,7 +12,7 @@
     }
     .page-our-img:nth-last-child(1) {
         margin-bottom: 0;
-    }
+    } 
 }
 
 /*==tablet==*/

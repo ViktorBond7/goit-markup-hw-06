@@ -61,6 +61,7 @@
     }
     .title-studio {
         display: flex;
+        width: 264px;
 
     }
     .container-footer,
@@ -82,19 +83,19 @@
         margin-right: 120px;
     }
     .container-basement {
-        /* align-items: baseline; */
         max-width: 1188px;
+        gap: 0px 0px
     }
     .footer-list {
-        /* margin-right: 80px; */
+        margin-right: 80px;
     }
     .form {
         display: flex;
         gap: 24px;
     }
-    /* .form-window {
-         margin-left: auto;
-    } */
+    .form-button {
+        margin-left: 0;
+    }
 }
 
 
@@ -131,8 +132,6 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    font-weight: 500;
     margin-bottom: 16px;
 }
 
@@ -149,6 +148,7 @@
 
 .title-social {
     color: #FFF;
+    font-weight: 500;
 }
 
 .icon-footer-link {
