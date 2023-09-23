@@ -87,7 +87,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 /*==tablet===*/
 
-@media screen  and (min-width: 768px) {
+/* @media screen  and (min-width: 768px) {
     .hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(/images/hero-tablet.jpg);
             justify-content: center;
@@ -106,10 +106,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
             url(/images/retina/hero-tablet@2x.jpg);
     }
 
-}
+} */
 
 /*== main page==*/
-@media screen and (min-width: 1158px) {
+/* @media screen and (min-width: 1158px) {
     .hero {
         
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -131,4 +131,4 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
             url(/images/retina/people-office\ 1@2x.jpg);
     }
 
-}
+} */
