@@ -82,4 +82,12 @@
         letter-spacing: 0.02em;
     }
 
+    .page-img-srategy {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+            /* 120% */
+        letter-spacing: 0.02em;
+    }
+
 }

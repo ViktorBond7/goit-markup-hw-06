@@ -213,7 +213,7 @@
     }
    
     .contakt-inf {
-        gap: 12px;
+        row-gap: 12px;
         display: flex;
         flex-direction: column;
     }
@@ -298,6 +298,8 @@
         .contakt-inf {
             display: flex;
             gap: 40px;
+            row-gap: 0px;
+            flex-direction: row;
         }
         .logo-name {
             margin-right: 76px;
