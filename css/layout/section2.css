@@ -21,7 +21,6 @@
 
 .list-names {
     display: flex;
-    /* gap: 24px; */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -42,12 +41,9 @@
 
 
 @media screen and (min-width: 768px) {
-    .container-strategy {
-        width: calc((100%-24px)/2);
-        gap: 24px;
-    }
     .list-strategy {
         width: 356px;
+        width: calc((100% - 24px)/2);
     }
     .list-names {
         gap: 24px;
@@ -69,7 +65,7 @@
     }
     
     .container-strategy {
-        width: calc((100%-72px)/4);
+        
     }
     .list-names {
         flex-wrap: nowrap;
@@ -86,8 +82,11 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-            /* 120% */
         letter-spacing: 0.02em;
+    }
+
+    .list-strategy {
+        width: calc((100% - 72px)/4);
     }
 
 }
