@@ -61,10 +61,10 @@
         row-gap: 32px;
         column-gap: 24px;
         flex-wrap: wrap;
-        width: calc((100%-24px)/2);
+        
     }
     .images-banking {
-        
+        width: calc((100% - 24px)/2);
     }
     .overlay {
          display: none;
@@ -80,12 +80,12 @@
         row-gap: 48px;
         column-gap: 24px;
         flex-wrap: wrap;
-        width: calc((100%-48px)/3);
+        
        
     }
 
     .images-banking {
-        
+        width: calc((100% - 48px)/3);
 
     }
 

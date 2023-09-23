@@ -50,6 +50,9 @@
         max-width: 584px;
         gap: 72px 24px;
     }
+    .title-studio {
+        width: 264px;
+    }
 }
 
 
