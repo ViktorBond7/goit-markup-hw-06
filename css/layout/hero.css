@@ -48,12 +48,13 @@
     }
 
 @media screen and (max-width: 767px) {
-    .hero {
+    .hero-title {
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        width: 288px;
     }
     .link-button{
         margin-top: 72px;
