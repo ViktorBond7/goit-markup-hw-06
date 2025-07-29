@@ -1,17 +1,18 @@
 /*==utils==*/
-@import "./utils/visually-hidden.css";
-@import "./utils/variables.css";
+@import './utils/visually-hidden.css';
+@import './utils/variables.css';
 
 /*==base==*/
-@import "./base/common.css";
-@import "./base/container.css";
-@import "./base/section.css";
+@import './base/reset.css';
+@import './base/container.css';
+@import './base/section.css';
 
 /*==layout==*/
-@import "./layout/header.css";
-@import "./layout/hero.css";
-@import "./layout/section2.css";
-@import "./layout/section3.css";
-@import "./layout/section4.css";
-@import "./layout/footer.css";
-@import "./layout/beckdrop.css";
+@import './layout/header.css';
+@import './layout/hero.css';
+@import './layout/section2.css';
+@import './layout/section3.css';
+@import './layout/section4.css';
+@import './layout/footer.css';
+@import './layout/beckdrop.css';
+@import './layout/modal.css';

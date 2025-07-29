@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="page-header">
@@ -52,12 +52,23 @@
             </li>
           </ul>
         </address>
+
+        <button class="open-mobile-menu-btn" data-menu-open>
+          <svg
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="burger menu"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
       <!-- section-1 Hero -->
-      <section class="section-hero">
+      <section class="section-hero hidden">
         <div class="container container-hero">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
           <button
@@ -71,7 +82,7 @@
       </section>
 
       <!-- section-2 Advantages -->
-      <section class="section section-advantages">
+      <section class="section section-advantages hidden">
         <div class="container">
           <h2 class="title-section-all visually-hidden">Advantages</h2>
 
@@ -129,7 +140,7 @@
       </section>
 
       <!-- section-3  Our Team-->
-      <section class="section section-our-team">
+      <section class="section section-our-team hidden">
         <div class="container">
           <h2 class="title-section-all hero-our-team">Our Team</h2>
 
@@ -307,7 +318,7 @@
       </section>
 
       <!-- section-4  Our Portfolio-->
-      <section class="section section-our-portfolio">
+      <section class="section section-our-portfolio hidden">
         <div class="container">
           <h2 class="title-section-all hero-our-portfolio">Our Portfolio</h2>
           <ul class="our-portfolio-list">
@@ -431,7 +442,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="basement">
+    <footer class="basement hidden">
       <div class="container container-basement">
         <div class="container-logo">
           <a class="logo logo-footer" href="./index.html"

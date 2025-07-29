@@ -1,3 +1,13 @@
 :root {
-    --accentcolor-icon: #404bbf;
+  --primary-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --primary-background-white-color: #ffffff;
+  --second-background-color: #2e2f42;
+  --primary-accent-color: #2e2f42;
+  --secondary-accent-color: #434455;
+  --hover-color: #404bbf;
+  --hover-background-social-footer: #31d0aa;
+  --hover-background-social: #404bbf;
+  --background-color-social-button: #4d5ae5;
+  --color-icon: #f4f4fd;
 }
