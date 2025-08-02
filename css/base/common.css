@@ -5,4 +5,5 @@
   color: var(--primary-accent-color);
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
