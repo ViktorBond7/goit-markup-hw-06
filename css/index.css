@@ -6,11 +6,12 @@
 @import './base/reset.css';
 @import './base/container.css';
 @import './base/section.css';
+@import './base/common.css';
 
 /*==layout==*/
 @import './layout/header.css';
 @import './layout/hero.css';
-@import './layout/section2.css';
+@import './layout/advantages.css';
 @import './layout/section3.css';
 @import './layout/section4.css';
 @import './layout/footer.css';
