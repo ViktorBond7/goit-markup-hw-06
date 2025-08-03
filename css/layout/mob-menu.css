@@ -40,7 +40,8 @@
     transition-property: color;
   }
 
-  .social-links-link-mobile:hover .social-links-link-mobile:focus {
+  .social-links-link-mobile:hover,
+  .social-links-link-mobile:focus {
     color: var(--hover-color);
   }
 
